@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDataXamarin", "DemoDataXamarin\DemoDataXamarin.csproj", "{F80F1C1E-D2C8-4298-9421-CA8BCF1D7AB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableLibQNH", "PortableLibQNH\PortableLibQNH.csproj", "{439E0AB2-F60B-465C-9023-4248A20AF9E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F80F1C1E-D2C8-4298-9421-CA8BCF1D7AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80F1C1E-D2C8-4298-9421-CA8BCF1D7AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80F1C1E-D2C8-4298-9421-CA8BCF1D7AB3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F80F1C1E-D2C8-4298-9421-CA8BCF1D7AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80F1C1E-D2C8-4298-9421-CA8BCF1D7AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F80F1C1E-D2C8-4298-9421-CA8BCF1D7AB3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{439E0AB2-F60B-465C-9023-4248A20AF9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439E0AB2-F60B-465C-9023-4248A20AF9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439E0AB2-F60B-465C-9023-4248A20AF9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439E0AB2-F60B-465C-9023-4248A20AF9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
