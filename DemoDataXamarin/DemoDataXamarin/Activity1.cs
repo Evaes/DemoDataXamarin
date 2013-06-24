@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using PortableLibQNH;
 
 namespace DemoDataXamarin
 {
@@ -20,6 +21,9 @@ namespace DemoDataXamarin
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
+
+			Class1 a = new Class1 ();
+			a.Login ();
 
             // Get our button from the layout resource,
             // and attach an event to it
