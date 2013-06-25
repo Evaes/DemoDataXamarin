@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="QNHDemo.Data\MyClass.cs">
+    <Files>
+      <File FileName="QNHDemo.Data\MyClass.cs" Line="2" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.QNHDemo.GUI AndroidDeviceId-Debug="SH2C4W501242" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+</Properties>

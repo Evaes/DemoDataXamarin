@@ -19,6 +19,12 @@ namespace QNHDemo.Android
 			}
 		}
 
+		public static string test(){
+			using (ijmobile.bjzlimburg.nl.ArrayOfJeugdigenJeugdigeRelatieRelatie cl = new QNHDemo.Android.ijmobile.bjzlimburg.nl.ArrayOfJeugdigenJeugdigeRelatieRelatie()) {
+				return cl.Naam;
+			}
+		}
+
 	}
 }
 

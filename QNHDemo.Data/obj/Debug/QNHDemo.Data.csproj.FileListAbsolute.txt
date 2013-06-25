@@ -1,0 +1,4 @@
+C:\Users\Erwin\Documents\GitHub\DemoDataXamarin\QNHDemo.Data\bin\Debug\QNHDemo.Data.dll
+C:\Users\Erwin\Documents\GitHub\DemoDataXamarin\QNHDemo.Data\bin\Debug\QNHDemo.Data.pdb
+C:\Users\Erwin\Documents\GitHub\DemoDataXamarin\QNHDemo.Data\obj\Debug\QNHDemo.Data.dll
+C:\Users\Erwin\Documents\GitHub\DemoDataXamarin\QNHDemo.Data\obj\Debug\QNHDemo.Data.pdb

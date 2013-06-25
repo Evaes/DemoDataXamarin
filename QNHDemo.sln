@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNHDemo.GUI", "QNHDemo.GUI\QNHDemo.GUI.csproj", "{514B8FF5-46CB-4B49-B845-B222C17BABF6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNHDemo.Android", "QNHDemo.Android\QNHDemo.Android.csproj", "{E86BA39E-E31F-4FA7-87B2-0058203F25D3}"
@@ -34,5 +34,8 @@ Global
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = QNHDemo.GUI\QNHDemo.GUI.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
