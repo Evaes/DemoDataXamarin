@@ -1,0 +1,6 @@
+C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WP7\bin\Debug\QNHDemo.WP7.dll.config
+C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WP7\bin\Debug\QNHDemo.WP7.dll
+C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WP7\bin\Debug\QNHDemo.WP7.pdb
+C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WP7\obj\Debug\QNHDemo.WP7.csprojResolveAssemblyReference.cache
+C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WP7\obj\Debug\QNHDemo.WP7.dll
+C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WP7\obj\Debug\QNHDemo.WP7.pdb

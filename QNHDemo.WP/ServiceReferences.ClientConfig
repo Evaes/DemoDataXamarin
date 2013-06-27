@@ -1,0 +1,16 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="IJMobileSoap" maxBufferSize="2147483647" maxReceivedMessageSize="2147483647">
+                    <security mode="Transport" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="https://bjlwb003.bjzlimburg.lan/ONTW/ijmobile.asmx"
+                binding="basicHttpBinding" bindingConfiguration="IJMobileSoap"
+                contract="ijMobile.IJMobileSoap" name="IJMobileSoap" />
+        </client>
+    </system.serviceModel>
+</configuration>
