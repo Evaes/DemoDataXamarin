@@ -11,23 +11,36 @@ namespace QNHDemo.GUI
 	[Activity (Label = "QNHDemo.GUI", MainLauncher = true)]
 	public class Activity1 : Activity
 	{
-		int count = 1;
+        protected override void OnCreate(Bundle bundle)
+        {
+            base.OnCreate(bundle);
 
-		protected override void OnCreate (Bundle bundle)
-		{
-			base.OnCreate (bundle);
+            // Set our view from the "main" layout resource
+            SetContentView(Resource.Layout.Main);
 
-			// Set our view from the "main" layout resource
-			SetContentView (Resource.Layout.Main);
+            // Get our button from the layout resource,
+            // and attach an event to it
+            Button button = FindViewById<Button>(Resource.Id.btnLogin);
+            EditText username = FindViewById<EditText>(Resource.Id.tvUsername);
+            EditText password = FindViewById<EditText>(Resource.Id.tvPassword);
+            TextView tv = FindViewById<TextView>(Resource.Id.textView3);
 
-			// Get our button from the layout resource,
-			// and attach an event to it
-			Button button = FindViewById<Button> (Resource.Id.myButton);
-			
-			button.Click += delegate {
-				button.Text = string.Format ("{0} clicks!", count++);
-			};
-		}
+            button.Click += delegate
+            {
+                //button.Text = string.Format ("{0} clicks!", count++);
+                QNHDemo.Android.ijmobile.bjzlimburg.nl.LoginResultaat l = QNHDemo.Android.Authorization.Login(username.Text, password.Text, null);
+                if (l.Status.ToString() == "Succes")
+                {
+                    Intent userActivity = new Intent(this, typeof(UserActivity));
+                    userActivity.PutExtra("loginToken", l.Token);
+                    StartActivity(userActivity);
+                }
+                else
+                {
+                    tv.Text = l.Status.ToString();
+                }
+            };
+        }
 	}
 }
 

@@ -1,0 +1,2 @@
+QNHDemo.GUI.Activity1;qnhdemo.gui.Activity1
+QNHDemo.GUI.UserActivity;qnhdemo.gui.UserActivity

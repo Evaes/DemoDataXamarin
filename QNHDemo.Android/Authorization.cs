@@ -13,12 +13,21 @@ namespace QNHDemo.Android
 {
 	public class Authorization
 	{
-		public static ijmobile.bjzlimburg.nl.LoginResultaat Login(string username, string password, string deviceId) {
-			using(ijmobile.bjzlimburg.nl.IJMobile client = new QNHDemo.Android.ijmobile.bjzlimburg.nl.IJMobile("https://ijmobile.bjzlimburg.nl/ONTW/ijmobile.asmx")) {
-				return client.Login(username, password, deviceId);
-			}
-		}
+        public static ijmobile.bjzlimburg.nl.LoginResultaat Login(string username, string password, string deviceId)
+        {
+            using (ijmobile.bjzlimburg.nl.IJMobile client = new QNHDemo.Android.ijmobile.bjzlimburg.nl.IJMobile("https://ijmobile.bjzlimburg.nl/ONTW/ijmobile.asmx"))
+            {
+                return client.Login(username, password, deviceId);
+            }
+        }
 
+        public static ijmobile.bjzlimburg.nl.CaseloadResult test(string token)
+        {
+            using (ijmobile.bjzlimburg.nl.IJMobile client = new QNHDemo.Android.ijmobile.bjzlimburg.nl.IJMobile("https://ijmobile.bjzlimburg.nl/ONTW/ijmobile.asmx"))
+            {
+                return client.GeefCaseLoad(token);
+            }
+        }
 	}
 }
 
