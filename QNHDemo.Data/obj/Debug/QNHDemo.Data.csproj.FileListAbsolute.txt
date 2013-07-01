@@ -1,5 +1,4 @@
 C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Data\bin\Debug\QNHDemo.Data.dll
 C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Data\bin\Debug\QNHDemo.Data.pdb
-C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Data\obj\Debug\QNHDemo.Data.csprojResolveAssemblyReference.cache
 C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Data\obj\Debug\QNHDemo.Data.dll
 C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Data\obj\Debug\QNHDemo.Data.pdb

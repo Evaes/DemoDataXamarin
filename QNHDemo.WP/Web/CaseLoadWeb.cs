@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace QNHDemo.WP.Service
+namespace QNHDemo.Web
 {
     /// <summary>
     /// Class for caseloadweb. This will call web service 
@@ -17,7 +17,7 @@ namespace QNHDemo.WP.Service
             QNHDemo.WP.ijMobile.JMobileSoapClient client = new QNHDemo.WP.ijMobile.JMobileSoapClient("IJMobileSoap", "https://ijmobile.bjzlimburg.nl/ONTW/ijmobile.asmx");
 
             Exception error = null;
-            ijMobile.CaseloadResult webResult = null;
+            QNHDemo.WP.ijMobile.CaseloadResult webResult = null;
 
             client.GeefCaseLoadCompleted += (sender, e) =>
             {

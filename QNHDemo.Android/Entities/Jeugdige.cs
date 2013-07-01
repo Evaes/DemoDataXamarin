@@ -9,6 +9,8 @@ namespace QNHDemo.Data.Entities
 {
     public class Jeugdige
     {
+		//DO NOT CHANGE, LINKED WITH OTHER PROJECTS
+
         public int Id { get; set; }
         public string Name { get; set; }
     }

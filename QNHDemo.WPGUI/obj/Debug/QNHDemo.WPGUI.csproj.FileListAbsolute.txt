@@ -14,5 +14,3 @@ C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\Bin\Debug
 C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\Bin\Debug\QNHDemo.WP.pdb
 C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\obj\Debug\List.g.cs
 C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\obj\Debug\LoginPage.g.cs
-C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\Bin\Debug\QNHDemo.Data.dll
-C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\Bin\Debug\QNHDemo.Data.pdb

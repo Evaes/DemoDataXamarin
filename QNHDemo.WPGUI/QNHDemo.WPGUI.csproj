@@ -103,10 +103,6 @@
     <Content Include="SplashScreenImage.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\QNHDemo.Data\QNHDemo.Data.csproj">
-      <Project>{00AB3B0E-B6C5-46D2-9751-21A178FB097C}</Project>
-      <Name>QNHDemo.Data</Name>
-    </ProjectReference>
     <ProjectReference Include="..\QNHDemo.WP\QNHDemo.WP.csproj">
       <Project>{ED9B7A14-C34D-4A45-B0AF-4B0CDC8BAF6E}</Project>
       <Name>QNHDemo.WP</Name>

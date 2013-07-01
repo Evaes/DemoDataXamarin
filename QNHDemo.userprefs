@@ -1,9 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="QNHDemo.Android\Authorization.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="QNHDemo.Android\DAL\Dal.cs">
     <Files>
-      <File FileName="QNHDemo.WP7\Authorization.cs" Line="1" Column="1" />
-      <File FileName="QNHDemo.Android\Authorization.cs" Line="1" Column="1" />
+      <File FileName="QNHDemo.Android\Web\CaseLoadWeb.cs" Line="20" Column="5" />
+      <File FileName="QNHDemo.Android\Authorization.cs" Line="29" Column="14" />
+      <File FileName="QNHDemo.Android\DAL\Dal.cs" Line="17" Column="46" />
+      <File FileName="QNHDemo.Android\Entities\Gebruiker.cs" Line="16" Column="1" />
+      <File FileName="QNHDemo.Android\Entities\Jeugdige.cs" Line="12" Column="46" />
+      <File FileName="QNHDemo.Android\Data\CaseLoad.cs" Line="24" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

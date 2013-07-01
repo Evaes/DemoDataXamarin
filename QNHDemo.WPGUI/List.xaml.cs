@@ -34,7 +34,7 @@ namespace QNHDemo.WPGUI
             if (IsolatedStorageSettings.ApplicationSettings.Contains("jeugdige"))
             {
                 xml = (string)IsolatedStorageSettings.ApplicationSettings["jeugdige"];
-                var result = QNHDemo.WP.CaseLoad.GetJeugdigen(xml, token);
+                var result = QNHDemo.Data.CaseLoad.GetJeugdigen(xml, token);
 
                 lbxJeugdigen.ItemsSource = result;
             }

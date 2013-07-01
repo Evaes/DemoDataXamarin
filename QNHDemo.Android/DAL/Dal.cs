@@ -14,6 +14,8 @@ namespace QNHDemo.Data.DAL
     /// </summary>
     public class Dal
     {
+		//DO NOT CHANGE, LINKED WITH OTHER PROJECTS
+
         /// <summary>
         /// Serialize the user
         /// </summary>

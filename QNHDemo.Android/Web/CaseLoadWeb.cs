@@ -9,14 +9,14 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace QNHDemo.Android.Service
+namespace QNHDemo.Web
 {
 	public class CaseLoadWeb
 	{
-		public static List<Entities.Jeugdige> GetCaseLoad(string token) {
-			using (ijmobile.bjzlimburg.nl.IJMobile client = new QNHDemo.Android.ijmobile.bjzlimburg.nl.IJMobile("https://ijmobile.bjzlimburg.nl/ONTW/ijmobile.asmx"))
+		public static List<QNHDemo.Data.Entities.Jeugdige> GetCaseLoad(string token) {
+			using (QNHDemo.Android.ijmobile.bjzlimburg.nl.IJMobile client = new QNHDemo.Android.ijmobile.bjzlimburg.nl.IJMobile("https://ijmobile.bjzlimburg.nl/ONTW/ijmobile.asmx"))
 			{
-				var result = new List<Entities.Jeugdige>();
+				var result = new List<QNHDemo.Data.Entities.Jeugdige>();
 
 				var webResult =  client.GeefCaseLoad(token);
 
@@ -29,6 +29,9 @@ namespace QNHDemo.Android.Service
 						Name = item.Naam
 					});
 				}
+
+				//TODO: Schrijf de XML naar een bestand
+				String xml = QNHDemo.Data.DAL.Dal.SerializeObject<List<QNHDemo.Data.Entities.Jeugdige>> (result);
 
 				return result;
 			}

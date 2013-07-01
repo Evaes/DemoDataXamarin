@@ -3,5 +3,3 @@ C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WP\Bin\Debug\QN
 C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WP\Bin\Debug\QNHDemo.WP.pdb
 C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WP\obj\Debug\QNHDemo.WP.dll
 C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WP\obj\Debug\QNHDemo.WP.pdb
-C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WP\Bin\Debug\QNHDemo.Data.dll
-C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WP\Bin\Debug\QNHDemo.Data.pdb

@@ -1,13 +1,12 @@
-﻿<xapCache source="C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\Bin\Debug\QNHDemo.WPGUI.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="7/1/2013 12:01:41 AM">
+﻿<xapCache source="C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\Bin\Debug\QNHDemo.WPGUI.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="7/1/2013 1:54:17 PM">
   <file source="C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="6/25/2013 2:33:27 PM" />
   <file source="C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\Background.png" archivePath="Background.png" lastWriteTime="6/25/2013 11:42:29 AM" />
   <file source="C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="6/25/2013 11:42:29 AM" />
-  <file source="C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\obj\Debug\QNHDemo.WPGUI.dll" archivePath="QNHDemo.WPGUI.dll" lastWriteTime="7/1/2013 12:01:40 AM" />
-  <file source="C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Data\bin\Debug\QNHDemo.Data.dll" archivePath="QNHDemo.Data.dll" lastWriteTime="7/1/2013 12:01:39 AM" />
-  <file source="C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WP\Bin\Debug\QNHDemo.WP.dll" archivePath="QNHDemo.WP.dll" lastWriteTime="7/1/2013 12:01:40 AM" />
+  <file source="C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\obj\Debug\QNHDemo.WPGUI.dll" archivePath="QNHDemo.WPGUI.dll" lastWriteTime="7/1/2013 1:54:16 PM" />
+  <file source="C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WP\Bin\Debug\QNHDemo.WP.dll" archivePath="QNHDemo.WP.dll" lastWriteTime="7/1/2013 1:53:31 PM" />
   <file source="C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\ServiceReferences.ClientConfig" archivePath="ServiceReferences.ClientConfig" lastWriteTime="6/25/2013 2:36:34 PM" />
   <file source="C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="6/25/2013 11:42:29 AM" />
-  <file source="C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="6/28/2013 12:42:35 PM" />
+  <file source="C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="7/1/2013 1:54:17 PM" />
   <file source="C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="6/25/2013 11:42:29 AM" />
   <file source="C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.WPGUI\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="6/25/2013 11:42:29 AM" />
 </xapCache>

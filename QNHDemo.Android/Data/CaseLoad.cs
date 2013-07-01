@@ -11,6 +11,8 @@ namespace QNHDemo.Data
 	/// </summary>
 	public class CaseLoad
 	{
+		//DO NOT CHANGE, LINKED WITH OTHER PROJECTS
+
 		public static List<QNHDemo.Data.Entities.Jeugdige> GetJeugdigen(string xml, string token)
 		{
 			var result = new List<QNHDemo.Data.Entities.Jeugdige>();
