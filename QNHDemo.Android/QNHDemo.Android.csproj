@@ -47,6 +47,11 @@
       <DependentUpon>Reference.map</DependentUpon>
     </Compile>
     <Compile Include="Authorization.cs" />
+    <Compile Include="Entities\Gebruiker.cs" />
+    <Compile Include="Entities\Jeugdige.cs" />
+    <Compile Include="DAL\Dal.cs" />
+    <Compile Include="Web\CaseLoadWeb.cs" />
+    <Compile Include="Data\CaseLoad.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -69,5 +74,11 @@
       <RelPath>Web References\ijmobile.bjzlimburg.nl</RelPath>
       <UpdateFromURL>https://ijmobile.bjzlimburg.nl/ONTW/ijmobile.asmx?wsdl</UpdateFromURL>
     </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="DAL\" />
+    <Folder Include="Web\" />
+    <Folder Include="Data\" />
   </ItemGroup>
 </Project>

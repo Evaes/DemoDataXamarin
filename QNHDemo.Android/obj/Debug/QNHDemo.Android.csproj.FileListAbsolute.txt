@@ -15,7 +15,6 @@ C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\bin\Deb
 C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\bin\Debug\QNHDemo.Android.dll.mdb
 C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\bin\Debug\QNHDemo.Android.apk
 C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\bin\Debug\QNHDemo.Android-Signed.apk
-C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\obj\Debug\QNHDemo.Android.csprojResolveAssemblyReference.cache
 C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\obj\Debug\QNHDemo.Android.dll
 C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\obj\Debug\QNHDemo.Android.pdb
 C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\obj\Debug\android\bin\QNHDemo.Android.apk
