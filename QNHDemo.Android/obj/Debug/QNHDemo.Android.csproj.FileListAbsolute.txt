@@ -10,3 +10,15 @@ C:\Users\Erwin\Documents\GitHub\DemoDataXamarin\QNHDemo.Android\obj\Debug\res\va
 C:\Users\Erwin\Documents\GitHub\DemoDataXamarin\QNHDemo.Android\obj\Debug\R.cs.flag
 C:\Users\Erwin\Documents\GitHub\DemoDataXamarin\QNHDemo.Android\obj\Debug\uploadflags.txt
 C:\Users\Erwin\Documents\GitHub\DemoDataXamarin\QNHDemo.Android\obj\Debug\QNHDemo.Android.csprojResolveAssemblyReference.cache
+C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\bin\Debug\QNHDemo.Android.dll
+C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\bin\Debug\QNHDemo.Android.pdb
+C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\bin\Debug\QNHDemo.Android.dll.mdb
+C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\bin\Debug\QNHDemo.Android.apk
+C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\bin\Debug\QNHDemo.Android-Signed.apk
+C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\obj\Debug\QNHDemo.Android.csprojResolveAssemblyReference.cache
+C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\obj\Debug\QNHDemo.Android.dll
+C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\obj\Debug\QNHDemo.Android.pdb
+C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\obj\Debug\android\bin\QNHDemo.Android.apk
+C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\obj\Debug\res\values\strings.xml
+C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\obj\Debug\R.cs.flag
+C:\Users\Timo\Documents\QNHDemo - master\DemoDataXamarin\QNHDemo.Android\obj\Debug\uploadflags.txt

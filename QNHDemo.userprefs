@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="QNHDemo.WP7\Authorization.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="QNHDemo.Android\Authorization.cs">
     <Files>
-      <File FileName="QNHDemo.WP7\Authorization.cs" Line="12" Column="56" />
+      <File FileName="QNHDemo.WP7\Authorization.cs" Line="1" Column="1" />
       <File FileName="QNHDemo.Android\Authorization.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
@@ -10,4 +10,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.QNHDemo.GUI AndroidDeviceId-Debug="4df160ab123d5f0f" />
 </Properties>

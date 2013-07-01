@@ -10,6 +10,8 @@ using Microsoft.Phone.Shell;
 using System.Xml;
 using System.IO.IsolatedStorage;
 using System.Threading;
+using System.Text;
+using System.Xml.Serialization;
 
 namespace QNHDemo.WPGUI
 {
@@ -79,8 +81,37 @@ namespace QNHDemo.WPGUI
                     IsolatedStorageSettings.ApplicationSettings.Add("token", result.Token);
                 }
 
+                //write to xml file
+                QNHDemo.WP.Storage.StoreLogin(result.NaamMedewerker, result.Token);
+
                 NavigationService.Navigate(new Uri("/List.xaml", UriKind.Relative));
             }
         }
+
+        ///// <summary>
+        ///// Write token to xml
+        ///// </summary>
+        ///// <param name="token">the token to save</param>
+        //private void _WriteToXml(string token, string name)
+        //{
+        //    //StringBuilder bobDeBouwer = new StringBuilder();
+
+        //    //XmlWriter writer = XmlWriter.Create(bobDeBouwer);
+            
+        //    ////begin document
+        //    //writer.WriteStartDocument();
+
+        //    //writer.WriteStartElement("storage");
+
+        //    //writer.WriteElementString("token", token);
+
+        //    //writer.WriteEndElement();
+        //    //writer.WriteEndDocument();
+            
+        //    //writer.Close();            
+
+        //    //IsolatedStorageSettings.ApplicationSettings.Remove("XmlStorage");
+        //    //IsolatedStorageSettings.ApplicationSettings.Add("XmlStorage", bobDeBouwer.ToString());
+        //}
     }
 }

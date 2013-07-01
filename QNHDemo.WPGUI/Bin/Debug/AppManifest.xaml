@@ -2,5 +2,6 @@
   <Deployment.Parts>
     <AssemblyPart x:Name="QNHDemo.WPGUI" Source="QNHDemo.WPGUI.dll" />
     <AssemblyPart x:Name="QNHDemo.WP" Source="QNHDemo.WP.dll" />
+    <AssemblyPart x:Name="QNHDemo.Data" Source="QNHDemo.Data.dll" />
   </Deployment.Parts>
 </Deployment>
