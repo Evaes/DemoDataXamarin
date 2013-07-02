@@ -8,6 +8,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using System.IO;
 
 namespace QNHDemo.Web
 {
@@ -31,9 +32,22 @@ namespace QNHDemo.Web
 				}
 
 				//TODO: Schrijf de XML naar een bestand
-				String xml = QNHDemo.Data.DAL.Dal.SerializeObject<List<QNHDemo.Data.Entities.Jeugdige>> (result);
+				string xml = QNHDemo.Data.DAL.Dal.SerializeObject<List<QNHDemo.Data.Entities.Jeugdige>> (result);
 
-				return result;
+                string path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+
+                string filePath = Path.Combine(path, "jeugdige.xml");
+                
+                using (var file = File.Open(filePath, FileMode.Create, FileAccess.Write))
+                using (var strm = new StreamWriter(file))
+                {
+                    strm.Write(xml);
+                }
+
+                StreamReader files = File.OpenText(filePath);
+                string f = files.ReadToEnd();
+
+                return QNHDemo.Data.DAL.Dal.DeSerialize<List<QNHDemo.Data.Entities.Jeugdige>>(f);
 			}
 		}
 	}

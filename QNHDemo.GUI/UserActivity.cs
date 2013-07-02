@@ -8,6 +8,8 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using QNHDemo.Android;
+using Java.IO;
 
 namespace QNHDemo.GUI
 {
@@ -20,20 +22,17 @@ namespace QNHDemo.GUI
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.CaseLoad);
             TextView jeugdigen = FindViewById<TextView>(Resource.Id.tv_results);
-            QNHDemo.Android.ijmobile.bjzlimburg.nl.CaseloadResult caseLoadResult = QNHDemo.Android.Authorization.test(Intent.GetStringExtra("loginToken"));
+           
+            List<QNHDemo.Data.Entities.Jeugdige> caseLoadResult = QNHDemo.Web.CaseLoadWeb.GetCaseLoad(Intent.GetStringExtra("loginToken"));
 
-            if (caseLoadResult.Status.ToString() == "Ok")
+            StringWriter writer = new StringWriter();
+
+            namen = new string[caseLoadResult.Count];
+            ListView l = FindViewById<ListView>(Resource.Id.listView1);
+            for (int i = 0; i < caseLoadResult.Count; i++)
             {
-                namen = new string[caseLoadResult.Jeugdigen.Length];
-                for (int i = 0; i < caseLoadResult.Jeugdigen.Length; i++)
-                {
-                    QNHDemo.Android.ijmobile.bjzlimburg.nl.JeugdigenJeugdige persoon = caseLoadResult.Jeugdigen[i];
-                    namen[i] = persoon.Naam;
-                }
-            }
-            for (int i = 0; i < namen.Length; i++)
-            {
-                jeugdigen.Text += namen[i] + "\r\n";
+                QNHDemo.Data.Entities.Jeugdige j = caseLoadResult[i];
+                jeugdigen.Text += j.Name + "\r\n";
             }
         } 
 	}

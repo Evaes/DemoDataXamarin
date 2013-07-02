@@ -29,6 +29,7 @@ namespace QNHDemo.GUI
             {
                 //button.Text = string.Format ("{0} clicks!", count++);
                 QNHDemo.Android.ijmobile.bjzlimburg.nl.LoginResultaat l = QNHDemo.Android.Authorization.Login(username.Text, password.Text, null);
+
                 if (l.Status.ToString() == "Succes")
                 {
                     Intent userActivity = new Intent(this, typeof(UserActivity));

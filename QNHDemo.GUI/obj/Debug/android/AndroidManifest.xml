@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="QNHDemo.GUI">
-  <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionCode="1" android:versionName="1.0" package="QNHDemo.GUI">
+  <uses-sdk android:targetSdkVersion="8" android:minSdkVersion="8" />
   <application android:name="mono.android.app.Application" android:debuggable="true">
     <activity android:label="QNHDemo.GUI" android:name="qnhdemo.gui.Activity1">
       <intent-filter>
@@ -17,5 +17,7 @@
       </intent-filter>
     </receiver>
   </application>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
